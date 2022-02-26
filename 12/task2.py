@@ -55,7 +55,6 @@ class CoffeeMachine:
 actions = {
   'q': 'Quit the program',
   '1': 'Brew a cup of coffee',
-  '1': 'Brew a cup of coffee',
   '2': 'Display remaining supplies',
   '3': 'Turn the machine on',
   '4': 'Turn the machine off',
