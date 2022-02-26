@@ -20,8 +20,6 @@ The application should:
 Assume that records about booking for the day are refreshed automatically the next day (you don't need to implement it).
 """
 
-[[0]*10]*3
-
 class seat_simulator():
   def __init__(self, total_seats=10, ticket_price=40):
     self.total_seats = total_seats
@@ -88,7 +86,7 @@ class seat_simulator():
       f_name = input()
       print("Enter sur name")
       l_name = input()
-      self.book_order(cus_name=f_name, sur_name=l_name)
+      self.book_order(cus_name=f_name, cus_sur=l_name)
     elif val == 4:
       self.disp_ticket_price()
     elif val == 5:

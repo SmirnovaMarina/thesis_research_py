@@ -34,7 +34,7 @@ class coffee_machine():
     print("Sugar porpotions left: ", self.sugar)
     print("coffee, milk, and plastic cups left: ",self.portions)
   
-  def disp_runs_out():
+  def disp_runs_out(self):
     print("Machine is out of stuff")
   
   def order_coffee(self, amt, sugar=0):
